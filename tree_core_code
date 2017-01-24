@@ -1,0 +1,42 @@
+// designed for use wth grahviz, the free tree maker
+
+digraph {
+
+// list these alphabetically based on their full name
+// date is always full public publication. yeah, most of them are shared around designers fro a few years prior in testing
+
+APWO [label="Apocalpyse World         &#92;n Vincent Baker                                 &#92;n"]
+DUWO [label="Dungeon World            &#92;n John Harper                                   &#92;n"]
+WODU [label="World of Dungeons        &#92;n John Harper                                   &#92;n"]
+MOHR [label="Monster Hearts           &#92;n Avery McDaldno                                &#92;n"]
+SAGA [label="Saga of the Icelanders   &#92;n Gregor Vuga                                   &#92;n"]
+SORC [label="Sorcerer                 &#92;n Ron Edwards                                   &#92;n"]
+URSD [label="Urban Shadows            &#92;n Andrew Medieiros and Mark Diaz Truman         &#92;n"]
+SPRL [label="the Sprawl               &#92;n Hamish Cameron and Lillian Cohen-Moore        &#92;n" 2016]
+LDBB [label="Lady Blackbird           &#92;n John Harper                                   &#92;n" 2009]
+TNTL [label="Trolls and Tunnels       &#92;n Ken St. Andre                                 &#92;n" 1975]
+FATE [label="Fate and Fate Core       &#92;n Fred Hicks and Rob Danoghue                   &#92;n" 2003]
+RSUS [label="Risus                    &#92;n S. J. Ross                                    &#92;n" 1993]
+FDGE [label="Fudge                    &#92;n  Steffan O'Sullivan                           &#92;n" 1992]
+XCRD [label="X-Card Technique        &#92;n John Stavropoulos                              &#92;n" 2013]
+GRPS [label="GURPS                   &#92;n  Steve Jackson                                 &#92;n" 1986]
+BUST [label="Ghostbusters            &#92;n Sandy Petersen, Lynn Willis and Greg Stafford &#92;n" 1986]
+
+SIML ["label = Simulationist Rulesets"]
+OSR [label="Old School (style) Rulesets"]
+BNPR [label="Beer and Pretzels"]
+STFF [label="Stuff and Parahanalia"]
+
+// tree links
+
+SIML ->GRPS
+
+FDGE -> RSUS
+GRS -> RSUS
+BUST -> RSUS
+BNPR -> RSUS
+
+FDGE-> FATE
+RSUS -> FATE
+
+}
