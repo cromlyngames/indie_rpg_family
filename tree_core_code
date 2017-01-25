@@ -5,38 +5,44 @@ digraph {
 // list these alphabetically based on their full name
 // date is always full public publication. yeah, most of them are shared around designers fro a few years prior in testing
 
-APWO [label="Apocalpyse World         &#92;n Vincent Baker                                 &#92;n"]
-DUWO [label="Dungeon World            &#92;n John Harper                                   &#92;n"]
-WODU [label="World of Dungeons        &#92;n John Harper                                   &#92;n"]
-MOHR [label="Monster Hearts           &#92;n Avery McDaldno                                &#92;n"]
-SAGA [label="Saga of the Icelanders   &#92;n Gregor Vuga                                   &#92;n"]
-SORC [label="Sorcerer                 &#92;n Ron Edwards                                   &#92;n"]
-URSD [label="Urban Shadows            &#92;n Andrew Medieiros and Mark Diaz Truman         &#92;n"]
-SPRL [label="the Sprawl               &#92;n Hamish Cameron and Lillian Cohen-Moore        &#92;n" 2016]
-LDBB [label="Lady Blackbird           &#92;n John Harper                                   &#92;n" 2009]
-TNTL [label="Trolls and Tunnels       &#92;n Ken St. Andre                                 &#92;n" 1975]
-FATE [label="Fate and Fate Core       &#92;n Fred Hicks and Rob Danoghue                   &#92;n" 2003]
-RSUS [label="Risus                    &#92;n S. J. Ross                                    &#92;n" 1993]
-FDGE [label="Fudge                    &#92;n  Steffan O'Sullivan                           &#92;n" 1992]
-XCRD [label="X-Card Technique        &#92;n John Stavropoulos                              &#92;n" 2013]
-GRPS [label="GURPS                   &#92;n  Steve Jackson                                 &#92;n" 1986]
-BUST [label="Ghostbusters            &#92;n Sandy Petersen, Lynn Willis and Greg Stafford &#92;n" 1986]
+APWO [label="Apocalpyse World         &#92;n Vincent Baker                                 &#92;n 2010"] //cromlyn owns copy and will link up
+DUWO [label="Dungeon World            &#92;n Sage LaTorra and Adam Koebel                  &#92;n 2012"]
+FATE [label="Fate and Fate Core       &#92;n Fred Hicks and Rob Danoghue                   &#92;n 2003"]
+FAET [label="Fate Accelerated         &#92;n Fred Hicks and Rob Danoghue                   &#92;n 2003"]
+FDGE [label="Fudge                    &#92;n  Steffan O'Sullivan                           &#92;n 1992"]
+BUST [label="Ghostbusters            &#92;n Sandy Petersen, Lynn Willis and Greg Stafford &#92;n 1986"]
+GRPS [label="GURPS                   &#92;n  Steve Jackson                                 &#92;n 1986"]
+ICON [label="ICONS                    &#92;n Steve Kenson                                  &#92;n 2010"]
+LDBB [label="Lady Blackbird           &#92;n John Harper                                   &#92;n 2009"]
+MOHR [label="Monster Hearts           &#92;n Avery McDaldno                                &#92;n 2012"]
+RSUS [label="Risus                    &#92;n S. J. Ross                                    &#92;n 1993"] //inspirations linked up
+SAGA [label="Saga of the Icelanders   &#92;n Gregor Vuga                                   &#92;n 2012"]
+SERC [label="Sex and Sorcery          &#92;n Ron Edwards                                   &#92;n 2003"] //cromlyn owns copy and will link up
+SORC [label="Sorcerer                 &#92;n Ron Edwards                                   &#92;n 1996"]
+SPIR [label="Spirit of the Century    &#92;n Fred Hicks, Rob Danoghue and Leonard Balsera  &#92;n 2006"] //cromlyn owns copy and will link up
+SPRL [label="the Sprawl               &#92;n Hamish Cameron and Lillian Cohen-Moore        &#92;n 2016"] //cromlyn owns copy and will link up
+TNTL [label="Trolls and Tunnels       &#92;n Ken St. Andre                                 &#92;n 1975"]
+URSD [label="Urban Shadows            &#92;n Andrew Medieiros and Mark Diaz Truman         &#92;n 2015"] //cromlyn owns copy and will link up
+WODU [label="World of Dungeons        &#92;n John Harper                                   &#92;n 2012"]
+XCRD [label="X-Card Technique        &#92;n John Stavropoulos                              &#92;n 2013"]  //inspirations linked up
 
 SIML ["label = Simulationist Rulesets"]
 OSR [label="Old School (style) Rulesets"]
 BNPR [label="Beer and Pretzels"]
-STFF [label="Stuff and Parahanalia"]
+
 
 // tree links
 
-SIML ->GRPS
+GRPS -> SIML
 
-FDGE -> RSUS
+FDGE -> RSUS [label=" bell curve challenges"]
 GRS -> RSUS
-BUST -> RSUS
-BNPR -> RSUS
+BUST -> RSUS [label=" dice pool"]
+RSUS -> BNPR
 
-FDGE-> FATE
-RSUS -> FATE
+FDGE-> FATE [label=" fudge dice bell curves"]
+RSUS -> FATE [label=" cliches/aspects"]
+
+SERC ->XCRD[label="lines and veils"]
 
 }
