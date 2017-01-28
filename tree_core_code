@@ -5,14 +5,18 @@ digraph {
 // list these alphabetically based on their full name
 // date is always full public publication. yeah, most of them are shared around designers fro a few years prior in testing
 
+
+
+
+
 TSIX [label="3:16                     &#92;n Gregor Hutton                                  2008"]
-APWO [label="Apocalpyse World         &#92;n Vincent Baker and Meguey Baker                   &#92;n 2010"] //cromlyn owns copy and will link up
+APWO [label="Apocalpyse World         &#92;n Vincent Baker and Meguey Baker                   &#92;n 2010"]//inspirations linked up,
 ARSM [label="Ars Magica               &#92;n Jonathan Tweet and Mark Rein Hagen           &#92;n 1987"]
 BACC [label="Bacchanal                &#92;n Paul Czege                                   &#92;n 2005"]
 BITD [label="Blades in the Dark       &#92;n John Harper                                   &#92;n 2016"]
-UWH [label="Burning Wheel            &#92;n Luke Crane                                    &#92;n 2002"]
+BUWH [label="Burning Wheel            &#92;n Luke Crane                                    &#92;n 2002"]
 CYPK [label="Cyberpunk (2020)         &#92;n Mike Pondsmith                                &#92;n 1988"]
-DIAS [label="Diaspora                 &#92;n b.murray, c.w.marshall, t.dyke, b.kerr        &#92;n 2009"]
+DIAS [label="Diaspora                 &#92;n b.murray, c.w.marshall, t.dyke, b.kerr        &#92;n 2009"] //inspirations linked up
 DOGS [label="Dogs in the Vineyard     &#92;n Vincent Baker                                 &#92;n 2004"]
 DUWO [label="Dungeon World            &#92;n Sage LaTorra and Adam Koebel                  &#92;n 2012"]
 FATE [label="Fate and Fate Core       &#92;n Fred Hicks and Rob Danoghue                   &#92;n 2003"]
@@ -27,9 +31,10 @@ ICON [label="ICONS                    &#92;n Steve Kenson                       
 LDBB [label="Lady Blackbird           &#92;n John Harper                                   &#92;n 2009"] //inspirations linked up, some guessing
 MOHR [label="Monster Hearts           &#92;n Avery McDaldno                                &#92;n 2012"]
 MOTW [label="Monster of the Week      &#92;n Michael Sands, Steve Hickey, Fred Hicks       &#92;n 2015"]
-MOGD [label="Mousegaurd               &#92;n Luke Crane                                    &#92;n 2008"]             
+MOGD [label="Mousegaurd               &#92;n Luke Crane                                    &#92;n 2008"]   //cromlyn owns copy and will link up         
 TMWI [label="The Mountain Witch       &#92;n Timothy Kleinert                              &#92;n 2005"]
 NIWI [label="Night Witches            &#92;n Jason Morningstar                             &#92;n 2015"]
+OTED [label="Over the Edge &#92;n Robin Laws, Jonathan Tweet	 &#92;n 1992"]
 POLA [label="Polaris                  &#92;n Ben Lehman                                    &#92;n 2005"]
 PRAD [label="Primetime Adventures     &#92;n Matt Wilson                                   &#92;n 2004"]
 PUSH [label="Push: New Thinking About Roleplaying &#92;n Jonathan Walton, various          &#92;n 2006"]
@@ -37,44 +42,59 @@ REGI [label="the Regiment             &#92;n Paul Riddle and John Harper        
 RSUS [label="Risus                    &#92;n S. J. Ross                                    &#92;n 1993"] //inspirations linked up
 SAGA [label="Saga of the Icelanders   &#92;n Gregor Vuga                                   &#92;n 2012"]
 SERC [label="Sex and Sorcery          &#92;n Ron Edwards                                   &#92;n 2003"] //cromlyn owns copy and will link up
-TSOY [label="the Shadow of Yesterday  &#92;n Clinton R. Nixon                              &#92;n 
+TSOY [label="the Shadow of Yesterday  &#92;n Clinton R. Nixon                              &#92;n 2004"]
 SHDR [label="Shadowrun                &#92;n Bob Charrette, Paul Hume, Tom Dowd            &#92;n 1989"]
-SORC [label="Sorcerer, Sorcer's Soul  &#92;n Ron Edwards                                   &#92;n 1996"]
+SORC [label="Sorcerer, Sorcer's Soul  &#92;n Ron Edwards                                   &#92;n 1996"] //cromlyn owns copy and will link up
 SOMU [label="Sorcerer: Dictonary of Mu &#92;n Judd Karlman                                 &#92;n 2006"]
-SPIR [label="Spirit of the Century    &#92;n Fred Hicks, Rob Danoghue and Leonard Balsera  &#92;n 2006"] //cromlyn owns copy and will link up
+SOTC [label="Spirit of the Century    &#92;n Fred Hicks, Rob Danoghue and Leonard Balsera  &#92;n 2006"] //cromlyn owns copy and will link up
 SPIO [label="Spione                   &#92;n Ron Edwards                                  &#92;n 2010"]
 SPRL [label="the Sprawl               &#92;n Hamish Cameron and Lillian Cohen-Moore        &#92;n 2016"] //inspirations linked up
+TALI [label="Talisanta                &#92;n  Stephan Michael Sechi                        &#92;n 1986"]
+TAXI [label="Taxi Service on Al Amarja &#92;n Johnathan Tweet                               &#92;n 2006"]
 TECH [label="Technoir                 &#92;n Jeremy Keller                                 &#92;n 2011"] 
-TRAV [label=Traveller                 &#92;n Marc W. Miller                                &#92;n 1977"]
+TRAV [label="Traveller                 &#92;n Marc W. Miller                                &#92;n 1977"]
 TSAH [label="Three Small Apocalypse World Hacks &#92;n Dana Fried                          &#92;n 2013"] //wayback machine of blog only
+TRBA [label="Trollbabe               &#92;n Ron Edwards                                   &#92;n 2002"]
 TNTL [label="Trolls and Tunnels       &#92;n Ken St. Andre                                 &#92;n 1975"]
 URSD [label="Urban Shadows            &#92;n Andrew Medieiros and Mark Diaz Truman         &#92;n 2015"] //inspirations linked up
 UNIV [label="Universalis              &#92;n Ralph Mazza, Mike Holmes                      &#92;n 2002"]
 WODU [label="World of Dungeons        &#92;n John Harper                                   &#92;n 2012"]
 XCRD [label="X-Card Technique        &#92;n John Stavropoulos                              &#92;n 2013"]  //inspirations linked up
+XXXX [label="XXXXtreme STREET luge   &#92;n Ben Lehman                                     &#92;n 2008"]
 
-SIML ["label = Simulationist Rulesets"]
+SIML [label="Simulationist Rulesets"]
 OSR [label="Old School (style) Rulesets"]
 BNPR [label="Beer and Pretzels"]
 
 // ----------
 // tree links
 
+//3:16 inspiratons
+
+
 // Apocalypse world named inspirations
 TSIX -> APWO
 BACC -> APWO
 BUWH -> APWO
-TMWI -> APWO
+TMWI -> APWO [label="trust to Hx"]
 MOGD -> APWO
-PRAD -> APWO
-TSOY -> APWO
-SORC -> APWO
-SERC -> APWO
+PRAD -> APWO [label="fanmail to highlighted stats"]
+TSOY -> APWO [label="secrets to moves"]
+SORC -> APWO [label="bangs to threat countdowns"]
+SERC -> APWO [label="sex moves"]
+TALI -> APWO
+TRBA -> APWO [label="stakes -> lists"]
+XXXX -> APWO [label="playbooks"]
+ARSM -> APWO [label="holding creation et al"]
+SPIO -> APWO
+TAXI -> APWO [label="creation in play"]
 
-Talislanta, Bard Games Trollbabe, Ron Edwards XXXXtreme Street Luge, Ben Lehman Character moves are based on secrets in e Shadow of Yesterday, by Clinton R. Nixon. Highlighted stats work very much like keys in the same. Highlighted stats also follow fan mail in Primetime Adventures, by Matt Wilson. Hx is based on trust in e Mountain Witch, by Timothy Kleinart. Stakes questions are based on stakes in Trollbabe, by Ron Edwards. reat countdowns are based on bangs in Sorcerer, by Ron Edwards. Holding creation (et al) is based on covenant creation in Ars Magica (2nd Edition), by Lion Rampant. e character sex moves were inspired by Sex & Sorcerer, by Ron Edwards. e character playbooks were inspired by XXXXtreme Street Luge, by Ben Lehman.
-
-
-
+// Ars magica inspirations
+// Bacchanal inspirations
+// Blades in the dark inspirations
+// Burning Wheel inspiratons
+// Cyberpunk 2020 inspiratons
+// Dogs in the vineyard inspirations
 
 // Diaspora named inspirations
 SOTC -> DIAS [label="fate engine"]
@@ -82,12 +102,28 @@ TRAV -> DIAS [label="hack it up spirit"]
 DOGS -> DIAS [label="Say yes or roll the dice"]
 UNIV -> DIAS
 
+// Dungeon world inspirations
+APWO -> DUWO
+
 //Fate inspirations (from wiki)
 FDGE-> FATE [label=" fudge dice bell curves"]
 RSUS -> FATE [label=" cliches/aspects"]
 
-// Gurps catergoy link
+// Fate Accerlated inspirations
+FATE -> FAET
+
+// Fudge inspiratons
+// Fiasco inspiratons
+// Ghostbusters inspirations
+
+// GURPS inspiratons
 GRPS -> SIML
+
+// Grey Ranks inspiratons
+// Hot Guys Making Out inspirations
+
+// Icons Inspirations
+APWO -> ICON
 
 //Lady Blackbird dosen't name game inspiratons, just writers;
 // smae guy also wrote a supllement to sorcerer that mght need flagging
@@ -104,10 +140,57 @@ POLA -> LDBB
 PUSH -> LDBB
 SOMU -> LDBB
 
+// Monster hearts insirations
+APWO -> MOHR
+SAGA -> MOHR
+
+// Monster of the week inspiratons
+APWO -> MOTW
+
+// Mousegaurd inspiratons
+BUWH -> MOGD
+
+// The mountain witch inspiratons
+// NghtWitches inspiratons
+APWO -> NIWI
+// Over the edge inspirations
+
+// polaris inspirations
+// primetme adventures inspirations
+
+// The regiment inspiratons
+APWO -> REGI
+
+// Risus inspirations (from wiki)
+FDGE -> RSUS [label=" bell curve challenges"]
+GRPS -> RSUS
+BUST -> RSUS [label=" dice pool"]
+RSUS -> BNPR // beer and pretzels game
+
+// Saga of the icelander's inpsriations
+APWO -> SAGA
+
+// sex and sorcery inspirations
+SORC -> SERC
+
+// The shadow of yesterday inspiratons
+// shadowrun inspiratons
+SHDR -> SIML
+
+// Sorcerer inpspiratons
+// Sorcerer. Dictionary of Mu inspiratons
+SORC -> SOMU
+
+// Spirit of the century inspiratons
+FATE -> SOTC
+
+//Spione inpspiratons
+
 // the Sprawls named inspirations
 TSOY -> SPRL [label="keys to directives"]
 TECH -> SPRL [label="tags"]
 DUWO -> SPRL
+WODU -> SPRL
 REGI -> SPRL
 BITD -> SPRL
 SAGA -> SPRL
@@ -117,15 +200,21 @@ MOTW -> SPRL
 SHDR -> SPRL
 CYPK -> SPRL
 
-// Three small apocalypse hacks insired by AW
-APWO -> TSAH 
+//Talisanta's inspiratons
 
-// Risus inspirations (from wiki)
-FDGE -> RSUS [label=" bell curve challenges"]
-GRS -> RSUS
-BUST -> RSUS [label=" dice pool"]
-RSUS -> BNPR
+// Taxi service on Al Amarj
+OTED -> TAXI
 
+// Technoir insirations
+
+// Traveller Inspiratons
+TRAV -> SIML
+
+// Three small Apocalyspe world hacks
+APWO -> TSAH
+
+//Trollbabe inspirations
+// Trolls and tunnels inpsirations
 
 //Urban Shadows named inspirations
 APWO -> URSD [label="pbta"]
@@ -133,9 +222,14 @@ XCRD -> URSD
 MOHR -> URSD [label=" strings to debts"]
 TSAH -> URSD [label=" intimacy moves"]
 
+//World of dungeon inspiratons
+DUWO -> WODU
+OSR -> WODU
+
 // Xcard inspiratons
 SERC ->XCRD[label="lines and veils"]
 
+// XXXXtreme STREET luge inspiratons
 
 
 }
