@@ -5,22 +5,28 @@ digraph {
 // list these alphabetically based on their full name
 // date is always full public publication. yeah, most of them are shared around designers fro a few years prior in testing
 
+start [label="TITLE - families of story telling games"]
+splines=true
+overlap=false
 
 
-
-
-TSIX [label="3:16                     &#92;n Gregor Hutton                                  2008"]
-APWO [label="Apocalpyse World         &#92;n Vincent Baker and Meguey Baker                   &#92;n 2010"]//inspirations linked up,
+TSIX [label="3:16                     &#92;n Gregor Hutton                              &#92;n2008"]
+ADND [label="Advanced Dungeons and Dragons  &#92;n Gary Gygax and Dave Arneson	        &#92;n 1979"]
+APWO [label="Apocalpyse World         &#92;n Vincent Baker and Meguey Baker             &#92;n 2010"]//inspirations linked up,
 ARSM [label="Ars Magica               &#92;n Jonathan Tweet and Mark Rein Hagen           &#92;n 1987"]
 BACC [label="Bacchanal                &#92;n Paul Czege                                   &#92;n 2005"]
 BITD [label="Blades in the Dark       &#92;n John Harper                                   &#92;n 2016"]
 BUWH [label="Burning Wheel            &#92;n Luke Crane                                    &#92;n 2002"]
+CLAY [label="the Clay that Woke       &#92;n Paul Czege                                    &#92;n 2014"]
 CYPK [label="Cyberpunk (2020)         &#92;n Mike Pondsmith                                &#92;n 1988"]
 DIAS [label="Diaspora                 &#92;n b.murray, c.w.marshall, t.dyke, b.kerr        &#92;n 2009"] //inspirations linked up
 DOGS [label="Dogs in the Vineyard     &#92;n Vincent Baker                                 &#92;n 2004"]
-DUWO [label="Dungeon World            &#92;n Sage LaTorra and Adam Koebel                  &#92;n 2012"]
+DUWO [label="Dungeon World            &#92;n Sage LaTorra and Adam Koebel                  &#92;n 2012"] // linked up thanks to photostyle
+DDBS [label="Dungeons and Dragons Basic Set 2ed &#92;n Tom Moldvay	                        &#92;n 1981"]
+DYEA [label="Dying Earth              &#92;n Robin D. Laws, John Snead and Peter Freeman   &#92;n 2001"]
 FATE [label="Fate and Fate Core       &#92;n Fred Hicks and Rob Danoghue                   &#92;n 2003"]
 FAET [label="Fate Accelerated         &#92;n Fred Hicks and Rob Danoghue                   &#92;n 2003"]
+FREE [label="Freemarket               &#92;n Luke Crane, Jared A. Sorensen                 &#92;n 2010"] // cromyln WILL buy
 FDGE [label="Fudge                    &#92;n  Steffan O'Sullivan                           &#92;n 1992"]
 FIAS [label="Fiasco                   &#92;n Jason Morningstar                             &#92;n 2009"]
 BUST [label="Ghostbusters            &#92;n Sandy Petersen, Lynn Willis and Greg Stafford  &#92;n 1986"]
@@ -33,16 +39,20 @@ MOHR [label="Monster Hearts           &#92;n Avery McDaldno                     
 MOTW [label="Monster of the Week      &#92;n Michael Sands, Steve Hickey, Fred Hicks       &#92;n 2015"]
 MOGD [label="Mousegaurd               &#92;n Luke Crane                                    &#92;n 2008"]   //cromlyn owns copy and will link up         
 TMWI [label="The Mountain Witch       &#92;n Timothy Kleinert                              &#92;n 2005"]
+MLWM [label="My Life With Master      &#92;n Paul Czege                                    &#92;n 2004"]
+NICO [label="Nicotine Girls           &#92;n Paul Czege                                    &#92;n 2002"]
 NIWI [label="Night Witches            &#92;n Jason Morningstar                             &#92;n 2015"]
-OTED [label="Over the Edge &#92;n Robin Laws, Jonathan Tweet	 &#92;n 1992"]
+OTED [label="Over the Edge            &#92;n Robin Laws, Jonathan Tweet	                   &#92;n 1992"]
 POLA [label="Polaris                  &#92;n Ben Lehman                                    &#92;n 2005"]
 PRAD [label="Primetime Adventures     &#92;n Matt Wilson                                   &#92;n 2004"]
 PUSH [label="Push: New Thinking About Roleplaying &#92;n Jonathan Walton, various          &#92;n 2006"]
 REGI [label="the Regiment             &#92;n Paul Riddle and John Harper                   &#92;n -2013- (2.5 testing)"]
+TROS [label="the Riddle of Steel      &#92;n Jacob Norwood                                 &#92;n 2002"]
 RSUS [label="Risus                    &#92;n S. J. Ross                                    &#92;n 1993"] //inspirations linked up
 SAGA [label="Saga of the Icelanders   &#92;n Gregor Vuga                                   &#92;n 2012"]
+SCHM [label="Schism                  &#92;n Jared A. Sorensen                             &#92;n 2001"]
 SERC [label="Sex and Sorcery          &#92;n Ron Edwards                                   &#92;n 2003"] //cromlyn owns copy and will link up
-TSOY [label="the Shadow of Yesterday  &#92;n Clinton R. Nixon                              &#92;n 2004"]
+TSOY [label="the Shadow of Yesterday  &#92;n Clinton R. Nixon                              &#92;n 2004"] // linked up thanks to kanastrous
 SHDR [label="Shadowrun                &#92;n Bob Charrette, Paul Hume, Tom Dowd            &#92;n 1989"]
 SORC [label="Sorcerer, Sorcer's Soul  &#92;n Ron Edwards                                   &#92;n 1996"] //cromlyn owns copy and will link up
 SOMU [label="Sorcerer: Dictonary of Mu &#92;n Judd Karlman                                 &#92;n 2006"]
@@ -62,9 +72,11 @@ WODU [label="World of Dungeons        &#92;n John Harper                        
 XCRD [label="X-Card Technique        &#92;n John Stavropoulos                              &#92;n 2013"]  //inspirations linked up
 XXXX [label="XXXXtreme STREET luge   &#92;n Ben Lehman                                     &#92;n 2008"]
 
-SIML [label="Simulationist Rulesets"]
-OSR [label="Old School (style) Rulesets"]
-BNPR [label="Beer and Pretzels"]
+// --------
+//author link chain
+
+
+
 
 // ----------
 // tree links
@@ -93,6 +105,12 @@ TAXI -> APWO [label="creation in play"]
 // Bacchanal inspirations
 // Blades in the dark inspirations
 // Burning Wheel inspiratons
+
+// The Clay that woke inspiratons
+// Jorune, earthdawn, ruby by greg saunders, finite and infinite game james P carse, the book of the new sun Gene Wolfe's, the starbridge chronicles Paul Park
+//malcom sheppards' toy dogma articles
+TROS -> CLAY [label="psychology of fighting men"]
+
 // Cyberpunk 2020 inspiratons
 // Dogs in the vineyard inspirations
 
@@ -103,7 +121,17 @@ DOGS -> DIAS [label="Say yes or roll the dice"]
 UNIV -> DIAS
 
 // Dungeon world inspirations
-APWO -> DUWO
+APWO -> DUWO [label="pbta"]
+DDBS -> DUWO
+ADND -> DUWO
+SAGA -> DUWO
+MOHR -> DUWO
+TSOY -> DUWO [label="keys to alignments"]
+LDBB -> DUWO [label="keys to alignments"]
+BUWH -> DUWO [label="xp on miss"]
+REGI -> DUWO [label="xp on miss"]
+FREE -> DUWO [label="memories to bonds"]
+
 
 //Fate inspirations (from wiki)
 FDGE-> FATE [label=" fudge dice bell curves"]
@@ -117,7 +145,7 @@ FATE -> FAET
 // Ghostbusters inspirations
 
 // GURPS inspiratons
-GRPS -> SIML
+GRPS
 
 // Grey Ranks inspiratons
 // Hot Guys Making Out inspirations
@@ -165,19 +193,30 @@ APWO -> REGI
 FDGE -> RSUS [label=" bell curve challenges"]
 GRPS -> RSUS
 BUST -> RSUS [label=" dice pool"]
-RSUS -> BNPR // beer and pretzels game
+RSUS
 
 // Saga of the icelander's inpsriations
 APWO -> SAGA
+
+// Schism insprations
+SORC -> SCHM
 
 // sex and sorcery inspirations
 SORC -> SERC
 
 // The shadow of yesterday inspiratons
-FDGE -> TSOY
+FDGE -> TSOY [label="fudge dice n 2ed"]
+FATE -> TSOY 
+DOGS -> TSOY [label="websdisscussion"]
+SORC -> TSOY [label="goals to keys"]
+TROS -> TSOY [label="goals to keys"]
+OTED -> TSOY [label="bonus and penalty die"]
+DYEA -> TSOY [label="pool refreshment"]
+SHDR -> TSOY [label="attributes as resource pools"]
+SCHM -> TSOY [label="character transendance"]
 
 // shadowrun inspiratons
-SHDR -> SIML
+SHDR
 
 // Sorcerer inpspiratons
 // Sorcerer. Dictionary of Mu inspiratons
@@ -210,7 +249,7 @@ OTED -> TAXI
 // Technoir insirations
 
 // Traveller Inspiratons
-TRAV -> SIML
+TRAV
 
 // Three small Apocalyspe world hacks
 APWO -> TSAH
@@ -226,7 +265,6 @@ TSAH -> URSD [label=" intimacy moves"]
 
 //World of dungeon inspiratons
 DUWO -> WODU
-OSR -> WODU
 
 // Xcard inspiratons
 SERC ->XCRD[label="lines and veils"]
