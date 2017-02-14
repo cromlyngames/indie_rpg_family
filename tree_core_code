@@ -12,11 +12,13 @@ overlap=false
 
 TSIX [label="3:16                     &#92;n Gregor Hutton                              &#92;n2008"]
 ADND [label="Advanced Dungeons and Dragons  &#92;n Gary Gygax and Dave Arneson	        &#92;n 1979"]
+ADVE [label="Adventure!               &#92;n Various. see notes                         &#92;n 2001"] //Andrew Bates, Bruce Baugh, Kraig Blackwelder, Ken Cliffe, Dave van Domelen, Robert Hatch, James Kiley, Clayton A. Oliver, Richard Thomas, Fred Yelk
 APWO [label="Apocalpyse World         &#92;n Vincent Baker and Meguey Baker             &#92;n 2010"]//inspirations linked up,
 ARSM [label="Ars Magica               &#92;n Jonathan Tweet and Mark Rein Hagen           &#92;n 1987"]
 BACC [label="Bacchanal                &#92;n Paul Czege                                   &#92;n 2005"]
 BITD [label="Blades in the Dark       &#92;n John Harper                                   &#92;n 2016"]
 BUWH [label="Burning Wheel            &#92;n Luke Crane                                    &#92;n 2002"]
+BUEM [label="Burning Empires          &#92;n Luke Crane and Christopher Moeller           &#92;n 2006"]
 CLAY [label="the Clay that Woke       &#92;n Paul Czege                                    &#92;n 2014"]
 CYPK [label="Cyberpunk (2020)         &#92;n Mike Pondsmith                                &#92;n 1988"]
 DIAS [label="Diaspora                 &#92;n b.murray, c.w.marshall, t.dyke, b.kerr        &#92;n 2009"] //inspirations linked up
@@ -35,9 +37,10 @@ GRRK [label="Grey Ranks               &#92;n Jason Morningstar                  
 HOTG [label="Hot Guys Making Out      &#92;n Ben Lehman                                    &#92;n 2013"]
 ICON [label="ICONS                    &#92;n Steve Kenson                                  &#92;n 2010"]
 LDBB [label="Lady Blackbird           &#92;n John Harper                                   &#92;n 2009"] //inspirations linked up, some guessing
+MICR [label="Microscope               &#92;n Ben Robbins                                  &#92;n 2011"]  //cromlyn owns but it has no ackonowglements to other games
 MOHR [label="Monster Hearts           &#92;n Avery McDaldno                                &#92;n 2012"]
 MOTW [label="Monster of the Week      &#92;n Michael Sands, Steve Hickey, Fred Hicks       &#92;n 2015"]
-MOGD [label="Mousegaurd               &#92;n Luke Crane                                    &#92;n 2008"]   //cromlyn owns copy and will link up         
+MOGD [label="Mousegaurd               &#92;n Luke Crane                                    &#92;n 2008"]  //inspirations linked up
 TMWI [label="The Mountain Witch       &#92;n Timothy Kleinert                              &#92;n 2005"]
 MLWM [label="My Life With Master      &#92;n Paul Czege                                    &#92;n 2004"]
 NICO [label="Nicotine Girls           &#92;n Paul Czege                                    &#92;n 2002"]
@@ -45,16 +48,35 @@ NIWI [label="Night Witches            &#92;n Jason Morningstar                  
 OTED [label="Over the Edge            &#92;n Robin Laws, Jonathan Tweet	                   &#92;n 1992"]
 POLA [label="Polaris                  &#92;n Ben Lehman                                    &#92;n 2005"]
 PRAD [label="Primetime Adventures     &#92;n Matt Wilson                                   &#92;n 2004"]
+
+
+// Call of Cuthullu
+//the 1920s investigators companions
+//Pulp era
+//gangbusters
+//Pulp zombies
+//Terra Incognita
+//Fly from evil
+//Thrilling tales
+//two-fisted tales
+//Pulp-fu
+//Seeds
+//GURPS Cliffhangers
+
+PADV [labe="Pulp Adventures           &#92;n Erik Dewey, Timothy Parker                   &#92;n 1997"]
+PHER [label="Pulp Hero                &#92;n Steven S. Long                               &#92;n 2005"]
+
+
 PUSH [label="Push: New Thinking About Roleplaying &#92;n Jonathan Walton, various          &#92;n 2006"]
 REGI [label="the Regiment             &#92;n Paul Riddle and John Harper                   &#92;n -2013- (2.5 testing)"]
 TROS [label="the Riddle of Steel      &#92;n Jacob Norwood                                 &#92;n 2002"]
 RSUS [label="Risus                    &#92;n S. J. Ross                                    &#92;n 1993"] //inspirations linked up
 SAGA [label="Saga of the Icelanders   &#92;n Gregor Vuga                                   &#92;n 2012"]
 SCHM [label="Schism                  &#92;n Jared A. Sorensen                             &#92;n 2001"]
-SERC [label="Sex and Sorcery          &#92;n Ron Edwards                                   &#92;n 2003"] //cromlyn owns copy and will link up
+SERC [label="Sex and Sorcery          &#92;n Ron Edwards                                   &#92;n 2003"] //cromlyn owns copy but no rpgs acknowloged in supplements
 TSOY [label="the Shadow of Yesterday  &#92;n Clinton R. Nixon                              &#92;n 2004"] // linked up thanks to kanastrous
 SHDR [label="Shadowrun                &#92;n Bob Charrette, Paul Hume, Tom Dowd            &#92;n 1989"]
-SORC [label="Sorcerer, Sorcer's Soul  &#92;n Ron Edwards                                   &#92;n 1996"] //cromlyn owns copy and will link up
+SORC [label="Sorcerer, Sorcer's Soul  &#92;n Ron Edwards                                   &#92;n 1996"] //cromlyn owns copy but no rpgs acknowloged in supplements
 SOMU [label="Sorcerer: Dictonary of Mu &#92;n Judd Karlman                                 &#92;n 2006"]
 SOTC [label="Spirit of the Century    &#92;n Fred Hicks, Rob Danoghue and Leonard Balsera  &#92;n 2006"] //cromlyn owns copy and will link up
 SPIO [label="Spione                   &#92;n Ron Edwards                                  &#92;n 2010"]
@@ -62,6 +84,7 @@ SPRL [label="the Sprawl               &#92;n Hamish Cameron and Lillian Cohen-Mo
 TALI [label="Talisanta                &#92;n  Stephan Michael Sechi                        &#92;n 1986"]
 TAXI [label="Taxi Service on Al Amarja &#92;n Johnathan Tweet                               &#92;n 2006"]
 TECH [label="Technoir                 &#92;n Jeremy Keller                                 &#92;n 2011"] 
+TORC [label="Torchbearer              &#92;n Thor Olavsrud and Luke Crane                 &#92;n 2013"] //first printed in 2013, but reffed in my 2008 mousegaurg. go figure
 TRAV [label="Traveller                 &#92;n Marc W. Miller                                &#92;n 1977"]
 TSAH [label="Three Small Apocalypse World Hacks &#92;n Dana Fried                          &#92;n 2013"] //wayback machine of blog only
 TRBA [label="Trollbabe               &#92;n Ron Edwards                                   &#92;n 2002"]
@@ -71,6 +94,8 @@ UNIV [label="Universalis              &#92;n Ralph Mazza, Mike Holmes           
 WODU [label="World of Dungeons        &#92;n John Harper                                   &#92;n 2012"]
 XCRD [label="X-Card Technique        &#92;n John Stavropoulos                              &#92;n 2013"]  //inspirations linked up
 XXXX [label="XXXXtreme STREET luge   &#92;n Ben Lehman                                     &#92;n 2008"]
+
+
 
 // --------
 //author link chain
@@ -224,6 +249,23 @@ SORC -> SOMU
 
 // Spirit of the century inspiratons
 FATE -> SOTC
+PHER -> SOTC
+ADVE -> SOTC
+PADV -> SOTC
+// Call of Cuthullu
+//the 1920s investigators companions
+Pulp era
+gangbusters
+Pulp zombies
+Terra Incognita
+Fly from evil
+Thrilling tales
+two-fisted tales
+Pulp-fu
+Seeds
+GURPS Cliffhangers
+
+
 
 //Spione inpspiratons
 
