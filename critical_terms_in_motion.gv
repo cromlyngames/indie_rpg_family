@@ -1,0 +1,65 @@
+digraph {
+overalp = false
+splines=true
+
+{
+node [shape=box]
+GM
+player
+rules
+Concrete
+}
+
+{
+node [shape=plaintext]
+premise
+complexity
+complication
+poc
+roots
+stances
+director
+Conceptual
+}
+
+
+
+
+start1 [label="Normally GM &#92;n or table"]
+start2 [label="Normally player &#92;n sometimes GM &#92;n (quickstart)"]
+complication [label="complicated &#92;nNo. of seperate bits"]
+complexity [label="complexity &#92;n No. of ways the&#92;n bits interact"]
+gravity [label="Shared model &#92;n or assumptions &#92;n about things&#92;n (eg gravity)"]
+stances [label="Actor stance &#92;n Author Stance"]
+director [label="Director stance"]
+poc [label="Points of Contact"]
+roots [label="Root motivation&#92;n of fictional character"]
+sheet [label="character &#92;n sheet"]
+
+start1 -> {premise, palette}
+premise -> theme
+palette -> {theme, gravity}
+
+theme -> {mechanics, fiction}
+gravity -> GM
+GM -> {gravity,gm_mech}
+gm_mech ->{fiction, mechanics}
+
+mechanics -> {sheet, poc}
+fiction ->{GM, character}
+rules -> {complexity, complication} -> mechanics
+character -> {mechanics, fiction}
+
+sheet -> character
+poc -> {player, gm_mech}
+player -> director -> fiction
+player -> stances -> character
+
+roots -> character
+start2 -> roots
+
+start->{start1, start2}
+start -> someone_reads -> rules
+GraphKey -> Concrete -> Conceptual -> Constructed
+
+}
